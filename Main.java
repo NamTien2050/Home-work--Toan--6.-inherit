@@ -27,18 +27,4 @@ public class Main {
             }
         } while (true);
     }
-    public void create (Staff[] arr) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập Id:");
-        int id = Integer.parseInt(scanner.nextLine());
-        System.out.print("Nhập tên: ");
-        String name = scanner.nextLine();
-        System.out.print("Nhập tuổi");
-        int age = Integer.parseInt(scanner.nextLine());
-        System.out.print("Nhập Số điện thoại:");
-        int phonenumber = Integer.parseInt(scanner.nextLine());
-        System.out.print("Nhập Email: ");
-        String email = scanner.nextLine();
-
-    }
 }
