@@ -14,8 +14,8 @@ public class StaffFullTime extends Staff {
         this.punish = punish;
     }
 
-    public StaffFullTime(int id, String name, int age, int phonenumber, String email, double salary, double bonus, double punish) {
-        super(id, name, age, phonenumber, email);
+    public StaffFullTime(int id, String name, int age, double phoneNumBer, String email, double salary, double bonus, double punish) {
+        super(id, name, age, phoneNumBer, email);
         this.salary = salary;
         this.bonus = bonus;
         this.punish = punish;

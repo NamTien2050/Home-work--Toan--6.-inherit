@@ -1,7 +1,5 @@
 package aahomework;
 
-import aahomework.Staff;
-
 public class StaffPartTime extends Staff {
     private double hour;
 
@@ -12,8 +10,8 @@ public class StaffPartTime extends Staff {
         this.hour = hour;
     }
 
-    public StaffPartTime(int id, String name, int age, int phonenumber, String email, double hour) {
-        super(id, name, age, phonenumber, email);
+    public StaffPartTime(int id, String name, int age, double phoneNumBer, String email, double hour) {
+        super(id, name, age, phoneNumBer, email);
         this.hour = hour;
     }
 

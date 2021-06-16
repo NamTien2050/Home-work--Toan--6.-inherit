@@ -4,17 +4,17 @@ public class Staff {
     private int id;
     private String name;
     private int age;
-    private int phoneNumBer;
+    private double phoneNumBer;
     private String email;
 
     public Staff() {
     }
 
-    public Staff(int id, String name, int age, int phonenumber, String email) {
+    public Staff(int id, String name, int age, double phoneNumBer, String email) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.phoneNumBer = phonenumber;
+        this.phoneNumBer = phoneNumBer;
         this.email = email;
     }
 
@@ -42,11 +42,11 @@ public class Staff {
         this.age = age;
     }
 
-    public int getPhoneNumBer() {
+    public double getPhoneNumBer() {
         return phoneNumBer;
     }
 
-    public void setPhoneNumBer(int phonenumber) {
+    public void setPhoneNumBer(long phonenumber) {
         this.phoneNumBer = phonenumber;
     }
 
